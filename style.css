@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red;  */
+}
+/* Header */
+header{
+    background-color: #f99245;
+    color: #000;
+    padding: 10px 10% 50px 10%;
+}
+nav{
+    padding: 0px 0px 30px 0px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+}
+a:hover, .info h1:hover{
+    transition: .5s;
+    color: #fff;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:10px;
+    
+}
+ul li{
+    padding-right: 9px;
+}
+span.head-logo{
+    font-size: 24px; 
+    color: #000;  
+    padding-right: 820px;
+}
+section{
+    display: flex;
+}
+main section:nth-child(2){
+    margin-bottom: 100px;
+}
+.info h1{
+    font-size: 48px;
+    font-weight: bolder;
+    width: 450px;
+}
+.info p{
+     font-size: 18px;
+     color: #000;
+}
+.info button{
+    padding: 10px 20px;
+    background-color:#ac1923;
+    color: #f9faf8;
+    border-radius: 5px;
+    border:transparent;
+    margin-top: 15px;
+}
+/* main Section */
+section{
+    height: 200px;
+}
+main h2{
+    padding: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.main-area{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.one, .two, .three, .four{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #ac1923;
+    border-radius: 10px;
+}
+.main-area figure, .main-area img{
+    width: 100%;
+    height: 100%;
+    
+}
+.main-area figure:hover{
+    background-color: #f99245;
+}
+.main-area p{
+    margin: 10px;
+    font-size: 1rem; 
+    text-align: center;
+    margin-bottom: 100px;  
+}
+/* Quote Section  */
+section:nth-child(3){
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1F2937;
+    padding: 50px;
+    background-color: #E5E7EB;    
+}
+.quote{
+    padding: 10px 60px;
+}
+.quote .quote-writer{
+    padding-left: 60%;
+    color: #000;
+}
+/* login Section */
+section:nth-child(4){
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    width: 90%;
+    padding: 20px;
+    background-color: #ac1923;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+.login p{
+    color:#E5E7EB;
+}
+.btn button{
+    padding: 5px 25px;
+    margin-top: 7px;
+    background-color: #ac1923;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* footer */
+footer{
+    background-color: #f99245;
+    height: 50px;
+}
+footer p{
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+button:hover{
+    background-color: #f9faf8;
+    color: #000;   
+}
