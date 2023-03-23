@@ -40,6 +40,7 @@ span.head-logo{
 }
 section{
     display: flex;
+    flex-wrap:wrap;
 }
 main section:nth-child(2){
     margin-bottom: 100px;
@@ -47,11 +48,12 @@ main section:nth-child(2){
 .info h1{
     font-size: 48px;
     font-weight: bolder;
-    width: 450px;
+    width: 100%;
 }
 .info p{
      font-size: 18px;
      color: #000;
+     width: 50%;
 }
 .info button{
     padding: 10px 20px;
@@ -60,6 +62,9 @@ main section:nth-child(2){
     border-radius: 5px;
     border:transparent;
     margin-top: 15px;
+}
+.info{
+        width: 470px;
 }
 /* main Section */
 section{
@@ -76,6 +81,7 @@ main h2{
     display: flex;
     justify-content: center;
     gap: 50px;
+    height:400px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -107,6 +113,7 @@ section:nth-child(3){
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #1F2937;
     padding: 50px;
+    height:200px;
     background-color: #E5E7EB;    
 }
 .quote{
@@ -157,4 +164,41 @@ footer p{
 button:hover{
     background-color: #f9faf8;
     color: #000;   
+}
+@media screen and (max-width: 480px){
+    header{
+        padding: 10px 10% 50px 10%;
+        height: 360px;
+        width: 100%;
+    }
+    .info{
+        width: 100px;
+        margin-right: 10px;
+    }
+    .info h1{
+        font-size: 28px;
+    }
+    .info p{
+        font-size: 12px;
+        color: #000;
+        width: 100%;
+   }
+    .main-area{
+        height:900px;   
+    }
+    section:nth-child(3){
+        font-size: 26px;
+        padding: 0px; 
+        height:150px;   
+    }
+    .quote{
+        padding: 15px 20px;
+    }
+    .quote .quote-writer{
+        padding-left: 30%;
+        color: #000;
+    }
+    footer{
+        height: 70px;
+    }
 }
